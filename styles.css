@@ -137,6 +137,11 @@ footer {
     margin-top: 8px;
  }
 
+ .contact:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.1);
+}
+
  .contactdiv {
      display: flex;
     flex-direction: row;
